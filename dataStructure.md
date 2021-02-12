@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Algorithm"
-permalink: /posts/
+title: Data Structure
+permalink: /datastructure/
 main_nav: true
 ---
 
