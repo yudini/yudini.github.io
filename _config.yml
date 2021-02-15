@@ -55,10 +55,10 @@ jekyll-archives:
 # Category descriptions (for archive pages)
 descriptions:
   - cat: Algorithm
-    desc: "알고리즘 공부."
+    desc: "백준 문제 풀이"
 
-  - cat: Data Structure
-    desc: "자료구조 공부."
+  - cat: DataStructure
+    desc: "자료 구조"
 
 # Social icons and sharing options
 #
