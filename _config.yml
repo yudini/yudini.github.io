@@ -47,7 +47,11 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
+#comments:
+#  default: disqus
+#  provider: disqus
 # disqus_shortname: bencentra
+disqus_shortname: yudini
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
