@@ -116,13 +116,13 @@ pre code.hljs {
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
-	// Remove this to make header scrollable again
+	/* Remove this to make header scrollable again
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	background: $white;
-	z-index: 1;
+	z-index: 1;*/
 	/*
 	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
 	*/
@@ -215,7 +215,7 @@ pre code.hljs {
 */
 .page-content {
 	// Remove this to make header scrollable again
-	margin-top: 66px;
+	//margin-top: 66px;
 	.wrapper {
 		@include outer-container;
 		padding: 1em;
@@ -449,5 +449,21 @@ pre code.hljs {
 		a {
 			text-decoration: underline;
 		}
+	}
+}
+
+.post-link {
+	color: $dark-gray; 
+	&:hover {
+		color: darken($dark-gray, 10%);
+	}
+}
+
+.fa-stack, .page-number {
+	color: $dark-gray;
+	&:active,
+	&:focus,
+	&:hover {
+		color: darken($dark-gray, 10%);
 	}
 }
