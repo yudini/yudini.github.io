@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Algorithm"
-permalink: /algorithm/
+permalink: /Algorithm/
 main_nav: true
 ---
 
