@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Structure
-permalink: /datastructure/
+permalink: /Study/datastructure/
 main_nav: true
 ---
 

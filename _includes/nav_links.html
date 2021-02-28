@@ -1,5 +1,11 @@
-{% for page in site.pages %}
-	{% if page.title and page.main_nav == true %}
-	<li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-	{% endif %}
-{% endfor %}
+<!-- Search bar -->
+{% if site.theme_settings.search %}
+<li>
+<form action="{{ site.baseurl }}/search.html" method="get">
+	<input type="text" id="search-box" name="query" placeholder="Search" class="">
+	<button type="submit" class="">
+		<i class="fa fa-fw fa-search"></i>
+	</button>
+</form>
+</li>
+{% endif %}
