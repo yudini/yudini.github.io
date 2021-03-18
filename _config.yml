@@ -57,6 +57,7 @@ jekyll-archives:
 #  provider: disqus
 # disqus_shortname: bencentra
 disqus_shortname: yudini
+search: true
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
