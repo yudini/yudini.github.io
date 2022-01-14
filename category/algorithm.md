@@ -39,7 +39,7 @@ main_nav: true
       {% else %}
           {% if this_year != next_year %}
           <ul>
-          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+          <h1 id="{{ next_year }}-ref">{{next_year}}</h1>
           </ul>
           {% endif %}
       {% endif %}
